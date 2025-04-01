@@ -57,14 +57,15 @@ fun main() {
 
 
 
-
+// Практическая работа №1:
 fun main() {
-    // Практическая работа №1: Округление чисел
-    print("Введите четырехзначное число: ")
+        print("Введите четырехзначное число: ")
     val number = readLine()?.toIntOrNull() ?: 0
     println(roundNumber(number))
 
-    // Практическая работа №2: Правильное окончание для слов
+
+
+    // Практическая работа №2:
     print("Введите количество лет: ")
     val years = readLine()?.toIntOrNull() ?: 0
     println("$years ${getYearEnding(years)}")
